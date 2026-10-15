@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portal de IA do IFSC — Redirecionando para ia.ifsc.edu.br</title>
+  
+  <link rel="canonical" href="https://ia.ifsc.edu.br/">
+  <meta http-equiv="refresh" content="0; url=https://ia.ifsc.edu.br/">
+  <meta name="robots" content="noindex, follow">
+  
+  <script>
+    (function() {
+      var targetBase = "https://ia.ifsc.edu.br";
+      var newUrl = targetBase + window.location.pathname + window.location.search + window.location.hash;
+      window.location.replace(newUrl);
+    })();
+  </script>
+  
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: #0b0f17;
+      color: #f1f5f9;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 1.5rem;
+      text-align: center;
+    }
+    .card {
+      background: #161f30;
+      border: 1px solid #1e293b;
+      border-radius: 1.25rem;
+      padding: 2.5rem 2rem;
+      max-width: 520px;
+      width: 100%;
+      box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.4), 0 8px 10px -6px rgba(0, 0, 0, 0.3);
+    }
+    .badge {
+      display: inline-block;
+      padding: 0.25rem 0.75rem;
+      background: rgba(50, 160, 65, 0.15);
+      border: 1px solid rgba(50, 160, 65, 0.4);
+      color: #4ade80;
+      border-radius: 9999px;
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 1.25rem;
+    }
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 800;
+      margin-bottom: 0.75rem;
+      color: #ffffff;
+      line-height: 1.3;
+    }
+    p {
+      font-size: 0.95rem;
+      color: #94a3b8;
+      line-height: 1.6;
+      margin-bottom: 1.75rem;
+    }
+    .domain-box {
+      background: #0f172a;
+      border: 1px dashed #334155;
+      border-radius: 0.75rem;
+      padding: 0.75rem 1rem;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 0.9rem;
+      color: #38bdf8;
+      margin-bottom: 1.75rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+    }
+    .domain-box span.arrow { color: #64748b; }
+    .domain-box span.new-domain { color: #4ade80; font-weight: 700; }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      background-color: #32a041;
+      color: #ffffff;
+      font-weight: 700;
+      font-size: 0.95rem;
+      padding: 0.75rem 1.75rem;
+      border-radius: 0.75rem;
+      text-decoration: none;
+      transition: background-color 0.2s, transform 0.1s;
+    }
+    .btn:hover { background-color: #247a30; transform: translateY(-1px); }
+    .btn:active { transform: translateY(0); }
+    .footer-note {
+      margin-top: 1.5rem;
+      font-size: 0.75rem;
+      color: #64748b;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="badge">IFSC • DTIC • CGD</div>
+    <h1>Novo Endereço Oficial</h1>
+    <p>O <strong>Portal de IA do IFSC</strong> foi migrado para um endereço dedicado e permanente.</p>
+    
+    <div class="domain-box">
+      <span>apps.ifsc.edu.br</span>
+      <span class="arrow">➜</span>
+      <span class="new-domain">ia.ifsc.edu.br</span>
+    </div>
+    
+    <a id="redirect-btn" class="btn" href="https://ia.ifsc.edu.br/">
+      Acessar ia.ifsc.edu.br
+    </a>
+    
+    <div class="footer-note">
+      Você está sendo redirecionado automaticamente...
+    </div>
+  </div>
+  
+  <script>
+    var targetBase = "https://ia.ifsc.edu.br";
+    var newUrl = targetBase + window.location.pathname + window.location.search + window.location.hash;
+    var btn = document.getElementById("redirect-btn");
+    if (btn) btn.href = newUrl;
+  </script>
+</body>
+</html>
